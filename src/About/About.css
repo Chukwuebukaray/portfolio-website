@@ -1,0 +1,58 @@
+.about {
+  height: 100vh;
+  display: flex;
+  gap: 196px;
+  margin-top: 100px;
+  /* justify-content: space-between; */
+}
+
+.about-left {
+  padding-left: 96px;
+
+  h1 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 64px;
+    line-height: 100%;
+    color: #ffffff;
+
+    span {
+      color: #00adb5;
+    }
+  }
+
+  p {
+    width: 389px;
+    height: 189px;
+    opacity: 1;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #eeeeeebf;
+
+    span {
+      font-weight: 700;
+      color: #eeeeee;
+    }
+  }
+}
+
+.about-right {
+  padding-right: 96px;
+}
+
+.about-right .doodles {
+  width: 665.3333129882812px;
+  height: 499px;
+  position: absolute;
+}
+
+.about-right .group {
+  width: 412.6773681640625px;
+  height: 353.1433410644531px;
+  position: relative;
+  top: 200px;
+  left: 100px;
+}

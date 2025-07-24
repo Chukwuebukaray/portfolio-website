@@ -1,0 +1,30 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid;
+}
+
+nav h2 {
+  opacity: 1;
+  gap: 10px;
+  padding: 48px 96px;
+  font-family: Oswald;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 24px;
+  line-height: 100%;
+  color: #eeeeee;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 48px;
+  padding: 48px 96px;
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 100%;
+  color: #eeeeee;
+}

@@ -1,0 +1,109 @@
+.home {
+  height: 150vh;
+}
+
+.home-content {
+  display: flex;
+  /* align-items: center; */
+  /* margin-top: 100px; */
+  padding-left: 96px;
+  padding-right: 96px;
+}
+
+.home-left {
+  opacity: 1;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 10px;
+}
+
+.home-left .vector {
+  height: 221.6897945293664px;
+  margin-top: 40px;
+}
+
+.home-writeup {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.home-writeup h1 {
+  font-family: Poppins;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 96px;
+  line-height: 96px;
+  margin: 0;
+  color: aliceblue;
+  text-transform: uppercase;
+
+  span {
+    color: #00adb5;
+  }
+}
+
+.buttons {
+  display: flex;
+  gap: 24px;
+}
+
+.buttons button {
+  gap: 10px;
+  padding: 10px 32px;
+  border-radius: 24px;
+}
+
+.hire-button {
+  background: #00adb5;
+  color: #eeeeee;
+  border: none;
+  font-family: Poppins;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  box-shadow: 0px 4px 4px 0px #00000080;
+}
+.download-button {
+  background: #393e46bf;
+  color: #eeeeee;
+  display: flex;
+  align-items: center;
+  border: none;
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  backdrop-filter: blur(4px);
+}
+
+.home-right {
+  margin-top: 130px;
+  padding-right: 96px;
+}
+
+.home-right .doodles {
+  position: absolute;
+  width: 512px;
+  height: 512px;
+}
+
+.home-right .group {
+  position: relative;
+  top: 180px;
+  right: 40px;
+  width: 400px;
+}
+
+.downarrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0 0 450px;
+  padding: 30px 40px;
+  background: #393e46bf;
+  backdrop-filter: blur(8px);
+}

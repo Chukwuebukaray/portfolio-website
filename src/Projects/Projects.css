@@ -1,0 +1,77 @@
+.projects {
+  background-image: linear-gradient(to bottom, #222831b3, #222831b3),
+    url("../assets/doodle items.png");
+  background-size: 33%;
+  background-repeat: repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* padding-left: 96px; */
+  padding: 0 96px;
+  justify-content: center;
+  gap: 48px;
+
+  h1 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    color: #ffffff;
+    margin: 0;
+
+    span {
+      color: #00adb5;
+    }
+  }
+}
+
+.projects ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 16px;
+  margin: 0;
+
+  li {
+    color: #eeeeee;
+    background: #393e4680;
+    gap: 10px;
+    border-radius: 24px;
+    padding: 10px 32px;
+    font-family: Poppins;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    backdrop-filter: blur(8px);
+    box-shadow: 0px 4px 4px 0px #00000080;
+  }
+
+  .all {
+    background: #00adb5;
+  }
+}
+
+.projects-list {
+  display: flex;
+  color: #eeeeee;
+  gap: 48px;
+
+  .project-item {
+    background: #393e4680;
+    padding: 16px;
+    width: 368px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(4px);
+    border-radius: 16px;
+
+    img{
+        width: 265px;
+        height: 158px;
+    }
+  }
+}
