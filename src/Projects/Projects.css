@@ -6,10 +6,9 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  /* padding-left: 96px; */
-  padding: 0 96px;
   justify-content: center;
   gap: 48px;
+  padding: 0 96px;
 
   h1 {
     font-family: Poppins;
@@ -35,15 +34,12 @@
   li {
     color: #eeeeee;
     background: #393e4680;
-    gap: 10px;
     border-radius: 24px;
     padding: 10px 32px;
     font-family: Poppins;
     font-weight: 700;
-    font-style: Bold;
     font-size: 18px;
     line-height: 100%;
-    letter-spacing: 0%;
     backdrop-filter: blur(8px);
     box-shadow: 0px 4px 4px 0px #00000080;
   }
@@ -60,18 +56,18 @@
 
   .project-item {
     background: #393e4680;
-    padding: 16px;
     width: 368px;
     height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
-    backdrop-filter: blur(4px);
+    padding: 16px;
     border-radius: 16px;
+    backdrop-filter: blur(4px);
 
-    img{
-        width: 265px;
-        height: 158px;
+    img {
+      width: 265px;
+      height: 158px;
     }
   }
 }

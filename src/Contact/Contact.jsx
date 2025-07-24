@@ -28,9 +28,11 @@ const Contact = () => {
               <input type="email" placeholder="Email" />
             </div>
           </div>
+          <label>Your Message</label>
           <textarea placeholder="Message"></textarea>
           <button type="submit">
-            Send Message <img src={send} alt="Send" />
+            <span>Send Message</span>
+            <img src={send} alt="Send" />
           </button>
         </form>
       </div>
