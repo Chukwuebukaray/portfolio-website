@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import doodle_items from "../assets/doodle items.png";
-import group62 from "../assets/group 62.png";
+import group62 from "../assets/Group 62.png";
 
 const About = () => {
   return (
